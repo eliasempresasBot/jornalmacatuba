@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com o Jornal Macatuba">
+    <title>Contato - Jornal Macatuba</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1><a href="/imagens/logo.png">Jornal Macatuba</a></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/noticias">Notícias</a></li>
+                <li><a href="/contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <form action="/enviar" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Jornal Macatuba - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
