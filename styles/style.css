@@ -1,0 +1,199 @@
+/* Reset básico para garantir consistência entre os navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f50000;
+    color: #fff;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #f50000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Logo do jornal */
+header .logo h1 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 36px;
+}
+
+/* Navegação no cabeçalho */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Links de navegação com hover */
+nav ul li a:hover {
+    color: #f50000;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 20px;
+}
+
+/* Seção de destaques */
+.destaques {
+    margin-bottom: 30px;
+}
+
+.destaques h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.destaques article {
+    margin-bottom: 20px;
+}
+
+.destaques h3 a {
+    color: #f50000;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.destaques h3 a:hover {
+    color: #f39c12;
+}
+
+/* Lista de notícias */
+#noticias ul {
+    list-style: none;
+    padding: 0;
+}
+
+#noticias ul li {
+    margin-bottom: 10px;
+}
+
+#noticias ul li a {
+    color: #f50000;
+    text-decoration: none;
+}
+
+#noticias ul li a:hover {
+    color: #f50000;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #f50000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f50000;
+}
+
+/* Estilos para formulários */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #f50000;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #f50000;
+}
+
+/* Estilos para a área de arquivo */
+#arquivo ul {
+    list-style: none;
+    padding: 0;
+}
+
+#arquivo ul li {
+    margin-bottom: 10px;
+}
+
+#arquivo ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#arquivo ul li a:hover {
+    color: #fff;
+}
+
+/* Estilos para seções de conteúdo */
+section {
+    margin-bottom: 30px;
+}
+
+/* Estilos de navegação no rodapé */
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer nav ul li a {
+    color: #f50000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer nav ul li a:hover {
+    color: #f50000;
+}
